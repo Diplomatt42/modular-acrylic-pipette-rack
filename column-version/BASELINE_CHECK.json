@@ -1,0 +1,37 @@
+{
+  "baseline_geometry_matches_previously_shared_parts": true,
+  "baseline_compartments": 4,
+  "default_body_counts": {
+    "single": 7,
+    "four_stack": 25
+  },
+  "generator_dependencies": {
+    "cadquery": "2.8.0",
+    "ezdxf": "1.4.4"
+  },
+  "customization_checks": {
+    "height_101p6_mm": {
+      "CLI": "pass",
+      "clear_height_mm": 95.6056,
+      "stack_height_mm": 397.4084,
+      "shelf_unchanged": true
+    },
+    "different_laser_and_stock": {
+      "validation": "pass",
+      "stock_thickness_mm": 3.05,
+      "slot_width_mm": 3.25,
+      "bed_mm": [
+        600,
+        400
+      ],
+      "compartments_per_rack": 3,
+      "racks": 2,
+      "nested_sheets": 2,
+      "counts_verified": true,
+      "kerf_recorded_but_not_baked_into_DXF": true
+    },
+    "invalid_height_rejected": true,
+    "undersized_bed_rejected": true,
+    "existing_output_protected": true
+  }
+}

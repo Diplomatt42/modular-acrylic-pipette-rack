@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "revision": "shared-shelf-3mm-editable-v1",
+  "variant": "column",
+  "nominal_stock_description": "3.0 mm clear acrylic; model retains the previous nominal 0.118 inch thickness.",
+  "stack_compartments": 4,
+  "geometry_mm": {
+    "body_width": 88.9,
+    "body_depth": 292.1,
+    "single_box_overall_height": 88.9,
+    "stock_model_thickness": 2.9972,
+    "shelf_overhang": 3.175,
+    "column_width": 50.8
+  },
+  "joints_mm": {
+    "tab_projection": 2.0066,
+    "corner_radius": 0.381,
+    "side_tab_width": 12.7,
+    "side_slot_length_clearance": 2.54,
+    "back_tab_width": 10.16,
+    "back_slot_length_clearance": 2.032,
+    "slot_thickness_clearance": 0.889
+  },
+  "back_tab_fractions": {
+    "bottom": [
+      0.16850490196078433,
+      0.5974264705882353
+    ],
+    "top": [
+      0.3982843137254902,
+      0.8272058823529412
+    ]
+  }
+}

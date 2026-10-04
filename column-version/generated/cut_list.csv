@@ -1,0 +1,4 @@
+part,quantity_per_rack,quantity_to_nest,width_mm,height_mm,stock_thickness_mm
+shelf,5,5,95.25,295.27500000000003,2.9972
+column,16,16,50.8,86.9188,2.9972
+back_panel,4,4,82.9056,86.9188,2.9972

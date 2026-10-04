@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "machine_description": "Example university CO2 laser; replace with your actual machine profile.",
+  "bed_mm": {
+    "width": 914.4,
+    "height": 609.6
+  },
+  "edge_margin_mm": 6.35,
+  "part_spacing_mm": 1.524,
+  "racks_to_nest": 1,
+  "measured_kerf_mm": null,
+  "feature_limits_mm": {
+    "minimum_hole_width": 1.1938,
+    "minimum_web": 1.3462,
+    "minimum_slot_to_edge": 1.016
+  },
+  "fit_coupon_clearances_mm": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.5,
+    0.889
+  ],
+  "notes": "Feature limits are conservative legacy design targets, not certification for this laser or current SendCutSend rules. Bed and stock both need to accommodate the generated layout. Kerf is recorded only; apply compensation once in your laser CAM."
+}
