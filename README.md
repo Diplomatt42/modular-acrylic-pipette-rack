@@ -23,7 +23,6 @@ without installing the generator.
 
 ![Shocked reaction to the $507.65 Fisher Scientific product price](images/fisher-price-reaction.png)
 
-*Fisher Scientific product screenshot with an added reaction illustration; displayed price: $507.65.*
 
 ![Solid and column rack comparison](images/cost-comparison.png)
 
