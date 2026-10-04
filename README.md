@@ -1,5 +1,7 @@
 # Modular Acrylic Pipette Rack
 
+Companies charge outrageous prices for equipment that scientists need to help people. This humble box project is small, but I hope it illustrates how AI can enable non-engineers like myself to quickly design products and make use of innovative companies like OSHCut and SendCutSend to reduce barriers for science.
+
 Two modular, laser-cut acrylic rack designs: **solid sides** and **corner
 columns**. Stack identical compartments vertically while sharing one shelf at
 each interface, instead of doubling the floor and ceiling. Designed for easy dry-fit assembly
@@ -14,10 +16,14 @@ assembly notes and an AI handoff guide. You can use the delivered DXF/STEP files
 without installing the generator.
 
 > [!WARNING]
-> Acrylic can craze or crack from alcohol-based cleaners, even in a dry-fit rack.
-> For regular alcohol cleaning, we strongly recommend a compatible polycarbonate
+> Acrylic can craze or crack from alcohol-based cleaners, even in a dry-fit rack that doesn't use solvent welding.
+> For regular alcohol cleaning, I strongly recommend a compatible polycarbonate
 > or PETG grade instead. Verify the exact cleaner and fabrication process.
 > See [solid guide](solid-version/MATERIALS_AND_CARE.md) or [column guide](column-version/MATERIALS_AND_CARE.md).
+
+![Shocked reaction to the $507.65 Fisher Scientific product price](images/fisher-price-reaction.png)
+
+*Fisher Scientific product screenshot with an added reaction illustration; displayed price: $507.65.*
 
 ![Solid and column rack comparison](images/cost-comparison.png)
 

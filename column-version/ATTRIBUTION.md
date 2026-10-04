@@ -1,7 +1,7 @@
 # Attribution and license scope
 
 Original project: Modular Acrylic Pipette Rack
-Project attribution: Diplomatt42 and contributors
+Project attribution: Diplomatt42
 Source: https://github.com/Diplomatt42/modular-acrylic-pipette-rack
 Copyright notice: Copyright (c) 2026 Diplomatt42, to the extent copyright applies.
 

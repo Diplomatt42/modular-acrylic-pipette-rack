@@ -5,7 +5,7 @@
 **Acrylic can craze or crack when exposed to alcohol-based cleaners, including
 repeated alcohol cleaning of a dry-fit rack. This vulnerability exists even
 without solvent-welded joints. For environments that regularly clean with alcohol
-solutions, we strongly recommend choosing a suitable polycarbonate or PETG sheet
+solutions, I strongly recommend choosing a suitable polycarbonate or PETG sheet
 instead of acrylic.**
 
 Confirm compatibility with the sheet manufacturer for your exact grade, cleaner,

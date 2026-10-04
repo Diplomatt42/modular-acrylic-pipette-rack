@@ -1,7 +1,7 @@
 # Attribution and license scope
 
 Original project: Modular Acrylic Pipette Rack
-Project attribution: Diplomatt42 and contributors
+Project attribution: Diplomatt42
 Source: https://github.com/Diplomatt42/modular-acrylic-pipette-rack
 Copyright notice: Copyright (c) 2026 Diplomatt42, to the extent copyright applies.
 
@@ -21,3 +21,5 @@ Third-party libraries remain under their own licenses and are not bundled in
 the packages. The SendCutSend logo and trademarks in the price comparison image
 belong to their respective owner and are excluded from this project's license.
 Their inclusion does not imply affiliation, sponsorship, or endorsement.
+
+Fisher Scientific screenshot content, product photo, and branding retain their owners' rights and are excluded from this project's CC BY license.

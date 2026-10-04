@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: CC-BY-4.0
-# Attribution: Diplomatt42 and contributors; see ../ATTRIBUTION.md.
+# Attribution: Diplomatt42; see ../ATTRIBUTION.md.
 """Regenerate the shared-shelf acrylic box from portable JSON inputs.
 
 DXFs describe finished parts in inches. STEP uses millimetres. No laser kerf

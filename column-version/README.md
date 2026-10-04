@@ -8,8 +8,8 @@ The current CAD is a gravity-assembled locating **slip fit**, not a press-fit or
 positively locked assembly. Physical fit and load capacity have not been tested.
 
 > [!WARNING]
-> Acrylic can craze or crack from alcohol-based cleaners, even in a dry-fit rack.
-> For regular alcohol cleaning, we strongly recommend a compatible polycarbonate
+> Acrylic can craze or crack from alcohol-based cleaners, even in a dry-fit rack that doesn't use solvent welding.
+> For regular alcohol cleaning, I strongly recommend a compatible polycarbonate
 > or PETG grade instead. Verify the exact cleaner and fabrication process.
 > See [materials and cleaning guidance](MATERIALS_AND_CARE.md).
 
