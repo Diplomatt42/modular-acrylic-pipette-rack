@@ -2,6 +2,9 @@
 
 Companies charge outrageous prices for equipment that scientists need to help people. This humble box project is small, but I hope it illustrates how AI can enable non-engineers like myself to quickly design products and make use of innovative companies like OSHCut and SendCutSend to reduce barriers for science.
 
+It would be possible to create a 3D printable solution for ~$30 of filament. However, that requires a 3D printer and the hassle of managing multiple print jobs with a risk of failed prints. For not much added cost, this design eliminates that hassle and enables the use of on demand manufacturing services like OSH Cut or SendCutSend. If you have access to a laser cutter (for example through a shared University service), cost for acrylic material would be comparable to 3D printing.
+
+This project offers two designs for the storage of serological pipettes. The solid design recreates existing storage solutions, and the column design was created to reduce material cost.
 Two modular, laser-cut acrylic rack designs: **solid sides** and **corner
 columns**. Stack identical compartments vertically while sharing one shelf at
 each interface, instead of doubling the floor and ceiling. Designed for easy dry-fit assembly
