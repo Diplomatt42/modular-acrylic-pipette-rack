@@ -11,12 +11,17 @@ agent to modify this package. The recipient's explicit request takes precedence.
 - Repeat identical walls and shelves vertically; no separate top part.
 - Two full side walls per compartment.
 - Upper/lower tab centers remain offset at shared shelves to avoid collisions.
+- Non-flush shelf edges leave material around the intentionally placed slots.
+- Rectangular slots have small 0.381 mm corner radii; retain their envelope
+  and clearance unless the recipient explicitly requests a joint redesign.
+- Modular dry-fit assembly and disassembled flat-pack shipping are design goals.
 - Finished-part DXFs, not pre-offset toolpaths. STEP assemblies preserve separate
   bodies. Current joints are locating slip fits, not positively retained joints.
 
 ## Work procedure
 
-1. Read README.md, CUSTOMIZATION.md, ASSEMBLY.md, and both JSON inputs.
+1. Read README.md, CUSTOMIZATION.md, ASSEMBLY.md, MATERIALS_AND_CARE.md, and
+   both JSON inputs. Keep the alcohol-cleaning warning in modified packages.
 2. Make the requested change in JSON first. Update source only if new geometry
    cannot be expressed by the existing parameters. Use relative paths; never
    depend on the original author's desktop paths or an original ChatGPT session.
@@ -29,7 +34,10 @@ agent to modify this package. The recipient's explicit request takes precedence.
    dimension to actual bounds and keep part quantities consistent with N.
 6. Recheck the user's stock thickness, machine limits, kerf-compensation workflow,
    and fit coupon. Unknown measurements are unknown; do not invent measured data.
-7. Deliver the three unique production DXFs, part/assembly STEP models, revised
+7. If changing material for frequent alcohol cleaning, verify the exact grade,
+   cleaner and process. Polycarbonate/PETG are recommended candidates; the
+   delivered acrylic CAD does not certify an alternate-material build.
+8. Deliver the three unique production DXFs, part/assembly STEP models, revised
    input JSON, source, cut list, validation report, and a concise change note.
    Keep local nested layouts separate from individual supplier DXFs.
 

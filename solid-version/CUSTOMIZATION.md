@@ -17,7 +17,11 @@ The shared shelf DXF does not change for height-only edits.
 
 ## Adapt to a different laser or sheet
 
-1. Confirm your laser supports the chosen acrylic and follow your lab's process.
+1. Read [MATERIALS_AND_CARE.md](MATERIALS_AND_CARE.md), especially before
+   choosing material for regular alcohol cleaning. Confirm your machine supports
+   the actual sheet material and thickness, and follow your lab's process.
+   Polycarbonate/PETG substitutions need new fit and structural checks;
+   do not assume acrylic laser settings or cement remain appropriate.
 2. Measure actual sheet thickness at several points. Set
    `geometry_mm.stock_model_thickness` accordingly. Nominal thickness is not a
    guarantee of actual thickness or uniformity.
@@ -54,7 +58,9 @@ The fit ladder includes 0.05, 0.10, 0.15, 0.20, 0.30, 0.50 and 0.889 mm samples.
 - `shelf_overhang`: affects side and rear margins around the shelf slots.
 - `tab_projection`: must remain below the actual stock thickness and long enough
   to seat reliably. Changing it affects the mating joint and bottom clearance.
-- `corner_radius`: fillets all cutting corners and must fit every short feature.
+- `corner_radius`: default 0.381 mm small fillets on cutting corners, including
+  rectangular slot corners. Preserve the existing slot envelope and fit; this
+  revision does not use full semicircular ends. Radius must fit every short feature.
 - `side_tab_width`, `back_tab_width`, slot length clearances: change matching tab
   and slot features together. Slot length clearance is TOTAL, not per side.
 - `back_tab_fractions`: advanced joint placement, relative to internal width.

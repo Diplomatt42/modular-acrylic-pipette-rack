@@ -33,5 +33,14 @@
     "invalid_height_rejected": true,
     "undersized_bed_rejected": true,
     "existing_output_protected": true
+  },
+  "v1p1_small_corner_slot_review": {
+    "production_DXFs_match_v1p0_geometry": true,
+    "12_slots_each_have_four_90_degree_corner_arcs": true,
+    "slot_corner_radius_mm": 0.381,
+    "slot_width_mm": 3.8862,
+    "slot_to_slot_min_mm": 3.81,
+    "CAD_validation": "pass",
+    "physical_testing": "not performed"
   }
 }

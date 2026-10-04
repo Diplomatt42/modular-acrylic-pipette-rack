@@ -7,6 +7,12 @@ and one shelf at each horizontal interface. Adjacent compartments share a shelf.
 The current CAD is a gravity-assembled locating **slip fit**, not a press-fit or
 positively locked assembly. Physical fit and load capacity have not been tested.
 
+> [!WARNING]
+> Acrylic can craze or crack from alcohol-based cleaners, even in a dry-fit rack.
+> For regular alcohol cleaning, we strongly recommend a compatible polycarbonate
+> or PETG grade instead. Verify the exact cleaner and fabrication process.
+> See [materials and cleaning guidance](MATERIALS_AND_CARE.md).
+
 ## Start here
 
 - `generated/cutting/`: three unique, individual production DXFs.
@@ -20,9 +26,17 @@ positively locked assembly. Physical fit and load capacity have not been tested.
   individual SendCutSend parts.
 - `generated/calibration/`: fit ladder and probe, with a separate slot map.
 - `ASSEMBLY.md`, `CUSTOMIZATION.md`, `AI_HANDOFF.md`: assembly and editing guidance.
+- `MATERIALS_AND_CARE.md`: alcohol warning, material choices and optional bonding.
 - `generated/cut_list.csv`: quantities for the configured compartment count.
 - `generated/validation_report.json`: actual checks and remaining limitations.
 - `MANIFEST.sha256`: checksums of included files.
+
+Designed for modular, easy dry-fit assembly and flat-pack shipping.
+See ASSEMBLY.md for intentional joint offsets and non-flush shelf edges,
+and MATERIALS_AND_CARE.md for cleaning, alternate materials and optional cement.
+
+**v1.1 updates the documentation; delivered CAD geometry is unchanged from v1.0.**
+The rectangular slots retain 0.381 mm corner radii and existing clearances.
 
 ## Default dimensions
 

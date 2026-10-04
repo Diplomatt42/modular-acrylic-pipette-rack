@@ -1,16 +1,23 @@
 # Modular Acrylic Pipette Rack
 
-Two customizable, laser-cut acrylic rack designs: **solid sides** and **corner
+Two modular, laser-cut acrylic rack designs: **solid sides** and **corner
 columns**. Stack identical compartments vertically while sharing one shelf at
-each interface, instead of doubling the floor and ceiling.
+each interface, instead of doubling the floor and ceiling. Designed for easy dry-fit assembly
+and optimized for flat-pack shipping.
 
-**[Download the solid CAD package](https://github.com/Diplomatt42/modular-acrylic-pipette-rack/releases/download/v1.0/solid_version_3mm_editable_CAD_package.zip)**
-| **[Download the column CAD package](https://github.com/Diplomatt42/modular-acrylic-pipette-rack/releases/download/v1.0/column_version_3mm_editable_CAD_package.zip)**
-| **[Release notes](https://github.com/Diplomatt42/modular-acrylic-pipette-rack/releases/tag/v1.0)**
+**[Download the solid CAD package](https://github.com/Diplomatt42/modular-acrylic-pipette-rack/releases/download/v1.1/solid_version_3mm_editable_CAD_package_v1.1.zip)**
+| **[Download the column CAD package](https://github.com/Diplomatt42/modular-acrylic-pipette-rack/releases/download/v1.1/column_version_3mm_editable_CAD_package_v1.1.zip)**
+| **[Release notes](https://github.com/Diplomatt42/modular-acrylic-pipette-rack/releases/tag/v1.1)**
 
 Each download is a complete folder with CAD, editable source, configuration,
 assembly notes and an AI handoff guide. You can use the delivered DXF/STEP files
 without installing the generator.
+
+> [!WARNING]
+> Acrylic can craze or crack from alcohol-based cleaners, even in a dry-fit rack.
+> For regular alcohol cleaning, we strongly recommend a compatible polycarbonate
+> or PETG grade instead. Verify the exact cleaner and fabrication process.
+> See [solid guide](solid-version/MATERIALS_AND_CARE.md) or [column guide](column-version/MATERIALS_AND_CARE.md).
 
 ![Solid and column rack comparison](images/cost-comparison.png)
 
@@ -55,6 +62,21 @@ shelves. Follow the assembly model for front/back and top/bottom orientation.
 Full instructions: [solid assembly](solid-version/ASSEMBLY.md) /
 [column assembly](column-version/ASSEMBLY.md).
 
+## Slot locations, edges and corner radii
+
+Hole locations and deliberately non-flush shelf edges enable the tab-and-slot
+joints. The shelves extend beyond the wall faces to leave material around their
+slots. Offset upper/lower slot sets let the walls above and below a shared shelf
+use different openings without their tabs colliding. These offsets are intentional;
+do not center the holes or trim the shelves flush without redesigning the joints.
+
+Slots are rectangular with small **0.381 mm (0.015 in) corner radii**, preserving
+the v1.0 dimensions and fit. They do not have full semicircular ends. Small radii
+avoid sharp internal corners; they do not guarantee freedom from stress fractures.
+Side slots are 15.24 x 3.8862 mm; back slots are 12.192 x 3.8862 mm. The default
+0.889 mm thickness clearance remains a locating slip fit; cut the fit coupon to
+choose a closer positive clearance for your stock and machine.
+
 ## Customize, or hand the package to an AI agent
 
 Start with `AI_HANDOFF.md` in the chosen version. Edit `design_parameters.json`
@@ -85,9 +107,23 @@ are in each package's README. Use a new output folder to preserve earlier revisi
 unlimited safe stack height is claimed. The joints are gravity-assembled locating
 slip fits; they do not positively retain the stack when lifted by its top.
 
+The rack was designed to be modular, dry-fit together for easy assembly, and
+optimized for flat-pack shipping. All production parts are flat sheet pieces that
+can ship disassembled. Walls need temporary support until the next shelf is fitted.
+
+If additional stability is needed, acrylic can be permanently solvent welded with
+a compatible acrylic cement. Where permitted under approved lab controls,
+methylene chloride and a needle applicator can be used at close-contact seams;
+other acrylic cement formulations are available. Bonding prevents disassembly at
+those joints. See the [solid](solid-version/MATERIALS_AND_CARE.md) or
+[column](column-version/MATERIALS_AND_CARE.md) material guide for joint-gap guidance,
+chemical precautions, and the [author's example cement link](https://a.co/d/034aoZOj).
+
 Checks passed for closed DXF contours, solid geometry, assembly collisions, STEP
 reimport, dimensions, part quantities and bed-layout spacing. The rewritten source
-also reproduces the previously shared parts. Tested customizations include height
+also reproduces the previously shared parts. The v1.1 documentation release
+retains the v1.0 CAD geometry and confirms the small rounded slot corners in both
+versions. Tested customizations include height
 changes and changes to stock thickness, clearance, bed size and compartment count.
 
 Cut a fit coupon with your stock and settings, then prototype one compartment.

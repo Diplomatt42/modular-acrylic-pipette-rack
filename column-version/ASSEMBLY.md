@@ -32,3 +32,31 @@ If your sheet is thinner than the projection, tabs will contact the counter.
 
 There is no certified load rating or unlimited safe stack height. Changing the
 height or compartment count requires reassessing sway, racking, and tipping.
+
+## Slot locations, edges and corner radii
+
+Hole locations and deliberately non-flush shelf edges enable the tab-and-slot
+joints. The shelves extend beyond the wall faces to leave material around their
+slots. Offset upper/lower slot sets let the walls above and below a shared shelf
+use different openings without their tabs colliding. These offsets are intentional;
+do not center the holes or trim the shelves flush without redesigning the joints.
+
+Slots are rectangular with small **0.381 mm (0.015 in) corner radii**, preserving
+the v1.0 dimensions and fit. They do not have full semicircular ends. Small radii
+avoid sharp internal corners; they do not guarantee freedom from stress fractures.
+Side slots are 15.24 x 3.8862 mm; back slots are 12.192 x 3.8862 mm. The default
+0.889 mm thickness clearance remains a locating slip fit; cut the fit coupon to
+choose a closer positive clearance for your stock and machine.
+
+## Flat-pack assembly and optional stability
+
+Identical flat sheet parts support easy modular dry-fit assembly and compact
+flat-pack shipping. Pack them disassembled and protect the exposed tab tips.
+Compatible acrylic cement can permanently bond an assembled rack if extra
+stability is needed. See [MATERIALS_AND_CARE.md](MATERIALS_AND_CARE.md) for cement
+selection, needle application at close-contact seams, and methylene chloride
+restrictions. Bonded joints cannot be taken apart for flat-pack transport.
+
+**Cleaning warning:** alcohol-based cleaners can damage acrylic even without
+solvent welding. For frequent alcohol cleaning, use a compatible polycarbonate
+or PETG grade and revalidate fabrication and fit; see the material guide above.
